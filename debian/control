@@ -1,0 +1,12 @@
+Source: ros-lunar-eca-a9-description
+Section: misc
+Priority: extra
+Maintainer: Thibault Pelletier <thp@eca.fr>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin, ros-lunar-rostest, ros-lunar-rosunit, ros-lunar-xacro
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-eca-a9-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-gazebo-ros, ros-lunar-robot-state-publisher, ros-lunar-uuv-assistants, ros-lunar-uuv-descriptions, ros-lunar-uuv-gazebo-ros-plugins, ros-lunar-uuv-sensor-ros-plugins
+Description: Robot description for the ECA A9 AUV
