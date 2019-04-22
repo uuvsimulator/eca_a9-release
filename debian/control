@@ -1,0 +1,12 @@
+Source: ros-lunar-eca-a9-control
+Section: misc
+Priority: extra
+Maintainer: Thibault Pelletier <thp@eca.fr>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-eca-a9-control
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-uuv-teleop, ros-lunar-uuv-trajectory-control
+Description: Configuration and launch files to control the ECA A9 AUV
