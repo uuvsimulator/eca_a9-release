@@ -1,0 +1,12 @@
+Source: ros-kinetic-eca-a9-description
+Section: misc
+Priority: extra
+Maintainer: Thibault Pelletier <thp@eca.fr>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-rostest, ros-kinetic-rosunit, ros-kinetic-xacro
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-eca-a9-description
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-gazebo-ros, ros-kinetic-robot-state-publisher, ros-kinetic-uuv-assistants, ros-kinetic-uuv-descriptions, ros-kinetic-uuv-gazebo-ros-plugins, ros-kinetic-uuv-sensor-ros-plugins
+Description: Robot description for the ECA A9 AUV
