@@ -1,0 +1,12 @@
+Source: ros-lunar-eca-a9-gazebo
+Section: misc
+Priority: extra
+Maintainer: Thibault Pelletier <thp@eca.fr>
+Build-Depends: debhelper (>= 9.0.0), ros-lunar-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-lunar-eca-a9-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lunar-eca-a9-control, ros-lunar-eca-a9-description
+Description: Package with launch files for demonstrations with the ECA A9 AUV
