@@ -1,0 +1,64 @@
+ros-melodic-eca-a9-control (0.1.6-0bionic) bionic; urgency=high
+
+
+
+ -- Thibault Pelletier <thp@eca.fr>  Thu, 18 Apr 2019 22:00:00 -0000
+
+ros-melodic-eca-a9-control (0.1.5-0bionic) bionic; urgency=high
+
+  * Fix dependencies for tests and update package.xml format
+    Signed-off-by: Musa Morena Marcusso Manhães <mailto:Musa.Marcusso@de.bosch.com>
+  * Contributors: Musa Morena Marcusso Manhães
+
+ -- Thibault Pelletier <thp@eca.fr>  Tue, 12 Mar 2019 23:00:00 -0000
+
+ros-melodic-eca-a9-control (0.1.4-0bionic) bionic; urgency=high
+
+
+
+ -- Thibault Pelletier <thp@eca.fr>  Wed, 13 Feb 2019 23:00:00 -0000
+
+ros-melodic-eca-a9-control (0.1.3-0bionic) bionic; urgency=high
+
+  * FIX Geometric tracking controller parameters
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * Contributors: Musa Morena Marcusso Manhaes, Musa Morena Marcusso Manhães
+
+ -- Thibault Pelletier <thp@eca.fr>  Thu, 05 Jul 2018 22:00:00 -0000
+
+ros-melodic-eca-a9-control (0.1.2-0bionic) bionic; urgency=high
+
+
+
+ -- Thibault Pelletier <thp@eca.fr>  Wed, 04 Jul 2018 22:00:00 -0000
+
+ros-melodic-eca-a9-control (0.1.1-0bionic) bionic; urgency=high
+
+  * ADD CHANGELOG files
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * Contributors: Musa Morena Marcusso Manhaes
+
+ -- Thibault Pelletier <thp@eca.fr>  Wed, 04 Jul 2018 22:00:00 -0000
+
+ros-melodic-eca-a9-control (0.1.0-0bionic) bionic; urgency=high
+
+  * ADD Sliding mode control files (still experimental)
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * CHANGE Fin parameters for the control allocator
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * ADD Model parameters for model-based controllers
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * CHANGE RViz visualization configuration
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * FIX Controller parameters for geo. tracking
+    Still needs improvement, will open an issue for this.
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * ADD Demo launch files
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * ADD ECA A9 model description and teleop launch files
+    Signed-off-by: Musa Morena Marcusso Manhaes <mailto:Musa.Marcusso@de.bosch.com>
+  * Contributors: Musa Morena Marcusso Manhaes
+
+ -- Thibault Pelletier <thp@eca.fr>  Sun, 22 Apr 2018 22:00:00 -0000
+
+
